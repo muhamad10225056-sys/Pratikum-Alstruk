@@ -3,7 +3,13 @@ umur = 20
 ipk = 3.65
 terdaftar = True
 
-print("Nilai:", nama, "| Tipe data:", type(nama))
-print("Nilai:", umur, "| Tipe data:", type(umur))
-print("Nilai:", berat, "| Tipe data:", type(berat))
-print("Nilai:", terdaftar, "| Tipe data:", type(terdaftar))
+print("Nama      :", nama, "| Tipe Data:", type(nama))
+print("Umur      :", umur, "| Tipe Data:", type(umur))
+print("IPK       :", ipk, "| Tipe Data:", type(ipk))
+print("Terdaftar :", terdaftar, "| Tipe Data:", type(terdaftar))
+
+umur = 21
+
+print("\nSetelah umur diubah:")
+print("Umur      :", umur, "| Tipe Data:", type(umur))
+
