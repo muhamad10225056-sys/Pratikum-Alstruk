@@ -1,14 +1,18 @@
-poin = 100
-print("1. Nilai awal   :", poin)
+nilai = 82
+kehadiran = 90
 
-poin += 25
-print("2. poin += 25   :", poin)
+syarat_nilai = nilai >= 75
+syarat_kehadiran = kehadiran >= 80
 
-poin -= 10
-print("3. poin -= 10   :", poin)
+print(" Kondisi Awal ")
+print(f"Nilai ({nilai}) >= 75             : {syarat_nilai}")
+print(f"Kehadiran ({kehadiran}%) >= 80%   : {syarat_kehadiran}")
+print(f"Status Lulus (AND)                : {syarat_nilai and syarat_kehadiran}")
 
-poin *= 2
-print("4. poin *= 2    :", poin)
+nilai = 70
+syarat_nilai = nilai >= 75
 
-poin /= 2
-print("5. poin /= 2    :", poin)
+print("\n Setelah Nilai Diubah Jadi 70 ")
+print(f"Nilai ({nilai}) >= 75        : {syarat_nilai}")
+print(f"Status Lulus dengan AND      : {syarat_nilai and syarat_kehadiran}")
+print(f"Status Lulus dengan OR       : {syarat_nilai or syarat_kehadiran}")
