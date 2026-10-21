@@ -1,14 +1,14 @@
-nama = "zidan nizar"
-umur = 20
-ipk = 3.65
-terdaftar = True
+poin = 100
+print("1. Nilai awal   :", poin)
 
-print("Nama      :", nama, "| Tipe Data:", type(nama))
-print("Umur      :", umur, "| Tipe Data:", type(umur))
-print("IPK       :", ipk, "| Tipe Data:", type(ipk))
-print("Terdaftar :", terdaftar, "| Tipe Data:", type(terdaftar))
+poin += 25
+print("2. poin += 25   :", poin)
 
-umur = 21
+poin -= 10
+print("3. poin -= 10   :", poin)
 
-print("\nSetelah umur diubah:")
-print("Umur      :", umur, "| Tipe Data:", type(umur))
+poin *= 2
+print("4. poin *= 2    :", poin)
+
+poin /= 2
+print("5. poin /= 2    :", poin)
